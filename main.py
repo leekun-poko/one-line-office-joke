@@ -1,17 +1,14 @@
 """Write one office joke line to the entry file.
 
-The joke: the office printer claims to be low on toner, yet it
-happily prints a colleague's fantasy football draft in full.
+The joke: the office buzzword "circle back" is repeated so often
+that the meeting itself turns into a roundabout.
 """
 
 import os
 
 # The joke is assembled from an opening setup and a closing twist.
-OPENING = (
-    "The office printer has claimed to be low on toner since March, "
-    "yet it printed all 42 pages of the fantasy football draft "
-)
-TWIST = "without blinking; we have concluded the toner is only afraid of spreadsheets."
+OPENING = "I said 'circle back' so many times "
+TWIST = "the meeting is now legally a roundabout."
 
 LINE = OPENING + TWIST
 
